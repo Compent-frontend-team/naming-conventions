@@ -33,7 +33,7 @@ Example naming
 </details>
 
 
-## Create simple queries
+## 2. Create simple queries
 
 <details><summary>Less:</summary>
   
@@ -45,7 +45,7 @@ Example naming
 
 </details>
 
-## Optional create advanced queries
+## 3. Optional create advanced queries
 
 <details><summary>Less:</summary>
   
@@ -69,7 +69,7 @@ Example naming
 
 </details>
 
-## Use it
+## 4. Use it
 
 <details><summary>Less:</summary>
   
