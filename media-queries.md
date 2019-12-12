@@ -10,7 +10,7 @@ We use abbreviations similarly to clothing sizes.
 1. xl — 1600px
 
 Example naming
-<details><summary>Css:</summary>
+<details><summary>CSS:</summary>
   
 ```css
 --screen-sm         : 600px;
