@@ -2,24 +2,38 @@
 
 
 
-## Breakpoints
-1. 600px
-1. 900px
-1. 1200px
+##  1. Declarate breakpoints name
+We use abbreviations similarly to clothing sizes.
+1. sm — 600px
+1. md — 900px
+1. lg — 1200px
+1. xl — 1600px
 
 Example naming
+<details><summary>Css:</summary>
+  
+```css
+--screen-sm         : 600px;
+--screen-md         : 900px;
+--screen-lg         : 1200px;
+--screen-xl         : 1600px;
+```
+
+</details>
+
 <details><summary>Less:</summary>
   
 ```less
 @screen-sm         : 600px;
 @screen-md         : 900px;
 @screen-lg         : 1200px;
+@screen-xl         : 1600px;
 ```
 
 </details>
 
 
-## Simple queries
+## Create simple queries
 
 <details><summary>Less:</summary>
   
@@ -31,24 +45,26 @@ Example naming
 
 </details>
 
+## Optional create advanced queries
 
-1. 600px
-1. 900px
-1. 1200px
+<details><summary>Less:</summary>
+  
+```less
+@sm-down         : ~"(max-width: @{screen-sm})";
+@md-down         : ~"(max-width: @{screen-md})";
+@lg-down         : ~"(max-width: @{screen-lg})";
 
-1. 600
-- @media (min-width: 600px) { @content; } - sm
+@sm-only         : ~"(min-width: @{screen-sm}) and (max-width: @{screen-md})";
+@md-only         : ~"(min-width: @{screen-md}) and (max-width: @{screen-lg})";
+@lg-only         : ~"(min-width: @{screen-lg}) and (max-width: @{screen-xl})";
 
-2. 900
-- @media (min-width: 900px) { @content; } - md
+@sm-l         : ~"(min-width: @{screen-sm}) and (orientation: landscape)";
+@md-l         : ~"(min-width: @{screen-md}) and (orientation: landscape)";
+@lg-l         : ~"(min-width: @{screen-lg}) and (orientation: landscape)";
 
-3. 1200
-- @media (min-width: 1200px) { @content; } - lg
+@sm-p         : ~"(min-width: @{screen-sm}) and (orientation: portrait)";
+@md-p         : ~"(min-width: @{screen-md}) and (orientation: portrait)";
+@lg-p         : ~"(min-width: @{screen-lg}) and (orientation: portrait)";
+```
 
-- .sm .md .lg (by default)
-- .sm-down (max-width: 600px)
-- .sm-only @media (min-width: 600px) and (max-width: 900px)
-- .sm-lg @media (min-width: 600px) and (max-width: 1200px)
-
-- .sm-down-l (for landscape view)
-- .sm-down-p (for portrait view)
+</details>
