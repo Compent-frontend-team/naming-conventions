@@ -58,13 +58,13 @@ Example naming
 @md-only         : ~"(min-width: @{screen-md}) and (max-width: @{screen-lg})";
 @lg-only         : ~"(min-width: @{screen-lg}) and (max-width: @{screen-xl})";
 
-@sm-l         : ~"(min-width: @{screen-sm}) and (orientation: landscape)";
-@md-l         : ~"(min-width: @{screen-md}) and (orientation: landscape)";
-@lg-l         : ~"(min-width: @{screen-lg}) and (orientation: landscape)";
+@sm-l            : ~"(min-width: @{screen-sm}) and (orientation: landscape)";
+@md-l            : ~"(min-width: @{screen-md}) and (orientation: landscape)";
+@lg-l            : ~"(min-width: @{screen-lg}) and (orientation: landscape)";
 
-@sm-p         : ~"(min-width: @{screen-sm}) and (orientation: portrait)";
-@md-p         : ~"(min-width: @{screen-md}) and (orientation: portrait)";
-@lg-p         : ~"(min-width: @{screen-lg}) and (orientation: portrait)";
+@sm-p            : ~"(min-width: @{screen-sm}) and (orientation: portrait)";
+@md-p            : ~"(min-width: @{screen-md}) and (orientation: portrait)";
+@lg-p            : ~"(min-width: @{screen-lg}) and (orientation: portrait)";
 ```
 
 </details>
