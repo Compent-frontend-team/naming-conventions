@@ -9,7 +9,7 @@ We use abbreviations similarly to clothing sizes.
 1. lg — 1200px
 1. xl — 1600px
 
-Example naming
+Variables declaration:
 <details><summary>CSS:</summary>
   
 ```css
