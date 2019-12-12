@@ -74,7 +74,7 @@ Example naming
 <details><summary>Less:</summary>
   
 ```less
-.exanple {
+.example {
   font-size: 13px;
   
   @media @sm {
