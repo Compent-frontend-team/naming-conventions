@@ -1,5 +1,10 @@
 # Naming Media Queries
 
+
+
+## Breakpoints
+
+
 1. 600
 - @media (min-width: 600px) { @content; } - sm
 
