@@ -68,3 +68,23 @@ Example naming
 ```
 
 </details>
+
+## Use it
+
+<details><summary>Less:</summary>
+  
+```less
+.exanple {
+  font-size: 13px;
+  
+  @media @sm {
+    font-size: 16px;
+  }
+  
+  @media @md-l {
+    font-size: 18px;
+  }
+}
+```
+
+</details>
