@@ -1,3 +1,5 @@
+# Naming Media Queries
+
 1. 600
 - @media (min-width: 600px) { @content; } - sm
 
