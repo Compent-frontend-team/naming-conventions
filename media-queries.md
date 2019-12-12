@@ -3,7 +3,38 @@
 
 
 ## Breakpoints
+1. 600px
+1. 900px
+1. 1200px
 
+Example naming
+<details><summary>Less:</summary>
+  
+```less
+@screen-sm         : 600px;
+@screen-md         : 900px;
+@screen-lg         : 1200px;
+```
+
+</details>
+
+
+## Simple queries
+
+<details><summary>Less:</summary>
+  
+```less
+@sm         : ~"(min-width: @{screen-sm})";
+@md         : ~"(min-width: @{screen-md})";
+@lg         : ~"(min-width: @{screen-lg})";
+```
+
+</details>
+
+
+1. 600px
+1. 900px
+1. 1200px
 
 1. 600
 - @media (min-width: 600px) { @content; } - sm
