@@ -10,17 +10,6 @@ We use abbreviations similarly to clothing sizes.
 1. xl — 1600px
 
 Variables declaration:
-<details><summary>CSS:</summary>
-  
-```css
---screen-sm         : 600px;
---screen-md         : 900px;
---screen-lg         : 1200px;
---screen-xl         : 1600px;
-```
-
-</details>
-
 <details><summary>Less:</summary>
   
 ```less
